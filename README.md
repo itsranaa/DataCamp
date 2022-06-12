@@ -1,4 +1,4 @@
 # Projects
-The Visualizing TV Data was an unguided project that I did on datacamp intended to analyze THE OFFICE data.
-The Cognitive Science project was a project intended to accompany a research on child speech development.
-The Traffic Light project was made to simulate a junction traffic light using BlinkStick.
+This repository is intended to store all of my previous and ongoing projects. The main software that I use is python.
+My first code project was an unguided project by DataCamp - Data Analysis with Python on The Office Data. 
+My second code project was an assignment to do Toucan Crosswalk Simulation using Blinkstick.
