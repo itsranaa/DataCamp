@@ -1,7 +1,3 @@
-#Kelompok 8 Ekonometri
-#1. I Ketut Doni Damara		1906299502
-#2. Rana Amalia Putri			1906354103
-#3. Yovela Natalia Yvone	2006463894
 
 #Loading Packages
 library(tseries)
@@ -18,7 +14,7 @@ library(dplyr)
 data1 <- read.csv("C:\\Users\\LENOVO\\Downloads\\datakurs.csv")
 train <- data1[c(1:356),]
 test <- data1[c(357:366),]
-train$Date <- as.Date(train$ï..Date,"%m/%d/%y")
+train$Date <- as.Date(train$Ã¯..Date,"%m/%d/%y")
 train_ts <- ts(train$kurs,frequency = 365, start=c(2020,1))
 plot(train$Date, train_ts,
      main="Nilai Tukar Rupiah Terhadap Dolar AS 1/1/20 - 21/12/20",type='l')
@@ -87,7 +83,7 @@ for (i in 1:10){
 }
 fitted <- c (14124.9,14119.43,14114.57,14109.72,14104.86,
              14100.01,14095.16,14090.31,14085.46,14080.62)
-test$Date <- as.Date(test$ï..Date,"%m/%d/%y")
+test$Date <- as.Date(test$Ã¯..Date,"%m/%d/%y")
 fitted_data <- data.frame( fitted,test$Date)
 
 #Plot Peramalan
